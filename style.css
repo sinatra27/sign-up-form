@@ -1,0 +1,27 @@
+/****************************************
+/* LAYOUT
+/***************************************/
+html {
+    /* min-height: 100vh; */
+}
+body {
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+}
+section {
+    width: 38%;
+    height: 100%;
+    background: gray;
+}
+main {
+    width: 62%;
+    background: lightgray;
+}
+main * {
+    height: 35%;
+}
+.sign-up {
+    height: 30%;
+    background: white;
+}
